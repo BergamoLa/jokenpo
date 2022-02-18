@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+
 class Jogo extends StatefulWidget {
   const Jogo({Key? key}) : super(key: key);
 
@@ -10,6 +11,15 @@ class Jogo extends StatefulWidget {
 class _JogoState extends State<Jogo> {
   @override
   Widget build(BuildContext context) {
-    return Container();
+    return Scaffold(
+      appBar: AppBar(
+        title: Text("Jokenpo"),
+      ),
+      body: Column(
+        children: [
+
+        ],
+      ),
+    );
   }
 }
